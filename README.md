@@ -25,7 +25,7 @@ They are:
 - Open project and Select and Open InventoryMangement.sln file. All of the files and folder will display your visual studio solution.
 - If you can not access database file:
   - Edit connectionString from `App_Code->SQLCommand.cs` file and add `Data Source=Here SQL Server Name;initial Catalog=InventoryMangement;User ID=here SQL User ID;Password=Here User Password;` 
-    In my case `Data Source=ASITDEV12\SQL2K19ENT;initial Catalog=InventoryMangement;User ID=sa;Password=1234;`
+    In my case `Data Source=MASTER\SQLSERVER2019;initial Catalog=InventoryMangement;User ID=sa;Password=1234;`
 - Login Username: `admin` Password: `123456`
 
 **Thanks.**
